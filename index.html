@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offerte Lampo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #232f3e;
+      padding: 20px;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ff9900;
+      padding-bottom: 5px;
+    }
+
+    .offerta {
+      background: white;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: inline-block;
+      width: calc(33% - 40px);
+      vertical-align: top;
+    }
+
+    .offerta img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .offerta h3 {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .offerta a {
+      text-decoration: none;
+      color: white;
+      background: #ff9900;
+      padding: 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .offerta {
+        width: calc(100% - 40px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Offerte Lampo</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#in-evidenza">In Evidenza</a>
+      <a href="#offerte">Offerte del Giorno</a>
+      <a href="#regali">Top 5 Hi-Tech</a>
+      <a href="#categorie">Categorie</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Benvenuto su Offerte Lampo!</h2>
+    <p>Ogni giorno selezioniamo le migliori offerte Amazon per te.</p>
+  </section>
+
+  <section id="in-evidenza">
+    <h2>In Evidenza</h2>
+    <div class="offerta">
+      <img src="https://via.placeholder.com/300x200" alt="Prodotto 1">
+      <h3>Echo Dot 5ª generazione</h3>
+      <p>Assistente vocale intelligente con Alexa. Audio migliorato e design compatto.</p>
+      <a href="https://www.amazon.it/dp/B09B8V8B8Y?tag=tuoIDaffiliato" target="_blank">Vedi Offerta</a>
+    </div>
+  </section>
+
+  <section id="offerte">
+    <h2>Offerte del Giorno</h2>
+    <div class="offerta">
+      <img src="https://via.placeholder.com/300x200" alt="Offerta 1">
+      <h3>Cuffie Bluetooth Sony</h3>
+      <p>Audio ad alta fedeltà e cancellazione attiva del rumore.</p>
+      <a href="https://www.amazon.it/dp/B08R5RFZYP?tag=tuoIDaffiliato" target="_blank">Scopri l’offerta</a>
+    </div>
+  </section>
+
+  <section id="regali">
+    <h2>I 5 Migliori Regali Hi-Tech del Giorno</h2>
+    <div class="offerta">
+      <img src="https://via.placeholder.com/300x200" alt="Regalo 1">
+      <h3>Smartwatch Huawei GT 3</h3>
+      <p>Monitoraggio salute, sport e stile in un unico dispositivo.</p>
+      <a href="https://www.amazon.it/dp/B09KNDLSDB?tag=tuoIDaffiliato" target="_blank">Compra ora</a>
+    </div>
+  </section>
+
+  <section id="categorie">
+    <h2>Categorie</h2>
+    <ul>
+      <li>Smartphone e Accessori</li>
+      <li>Computer e Periferiche</li>
+      <li>Gaming</li>
+      <li>Casa Intelligente</li>
+      <li>Audio e Musica</li>
+    </ul>
+  </section>
+
+</body>
+</html>
